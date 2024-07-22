@@ -1,0 +1,25 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+}
+
+a{
+    font-size: 150%;
+    display: inline-block;
+}
+
+#controls{
+    display: flexbox;
+}
+
+#booksarea{
+    margin: 2%;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.book{
+    margin: 10px;
+    pointer-events: none;
+    width: 160px;
+    height: 200px;
+}
