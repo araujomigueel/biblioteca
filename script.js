@@ -14,11 +14,10 @@ function changeView(){
     
     for (let i = 0; i < viewArea.length; i++) {
 
-        viewArea[i].style.display = isBlock ? 'block' : 'inline-block';
+        viewArea[i].style.display = isInline ? 'block' : 'inline-block';
         
     }
     
-    
     console.log(viewArea[0].style.display);
-    console.log(isBlock);
+    console.log(isInline);
 }
