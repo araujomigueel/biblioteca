@@ -3,11 +3,6 @@ body{
     background-color: blanchedalmond;
 }
 
-a{
-    font-size: 150%;
-    display: inline-block;
-}
-
 #controls{
     display: flexbox;
 }
@@ -17,9 +12,14 @@ a{
     background-color: rgba(0, 0, 0, 0.26);
 }
 
+.bookLinks{
+    font-size: 150%;
+    display: inline-block;
+}
+
 .book{
     margin: 10px;
-    pointer-events: none !important;
+    pointer-events: none;
     width: 160px;
     height: 200px;
 }
