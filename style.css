@@ -8,7 +8,7 @@ body{
 }
 
 #booksarea{
-    display: inline-block;
+    display: block;
     align-content:normal;
     margin: 1%;
     background-color: rgba(0, 0, 0, 0.26);
@@ -17,14 +17,16 @@ body{
 }
 
 .bookLinks{
-    display: inline-block;
+    display: block;
     margin: 20px;
-    width: 180px;
-    height: 200px;
 }
 
 .book{
     pointer-events: none;
-    width: 100%;
-    height: 100%;
+    width: 180px;
+    height: 200px;
+}
+
+.bookData{
+    display: inline-block;
 }
