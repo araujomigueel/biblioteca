@@ -1,4 +1,4 @@
-var bookAddress = [];
+/* var bookAddress = [];
 
 function getAddresses(){
     const newEmbedItem = document.createElement("embed");
@@ -30,4 +30,4 @@ function insertBooks(){
 
         booksarea.insertAdjacentElement("afterbegin", newLink);
     }
-}
+} */
