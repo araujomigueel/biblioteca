@@ -8,7 +8,7 @@ function getAddresses(){
     console.log(bookAddress[0].statusCode);
 }
 
-async function insertBooks(){
+function insertBooks(){
     const booksarea = document.getElementById("booksarea");
     const newLink = document.createElement("a");
     const newEmbedItem = document.createElement("embed");
