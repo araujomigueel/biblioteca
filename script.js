@@ -1,19 +1,20 @@
 const viewArea = document.querySelectorAll(".bookLinks");
+var isInline = true;
 
 function changeView(){
-    var isBlock = true;
+    
     if(viewArea[0].style.display == 'block')
     {
-        isBlock = true;
+        isInline = false;
     }
     else
     {
-        isBlock = false;
+        isInline = true;
     }
     
     for (let i = 0; i < viewArea.length; i++) {
 
-        viewArea[i].style.display = isBlock ? 'inline-block' : 'block';
+        viewArea[i].style.display = isBlock ? 'block' : 'inline-block';
         
     }
     
